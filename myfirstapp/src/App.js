@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Dinner from "./dinner.js";
 function App() {
   return (
-    <div>
-                                      Hello Mossas yo ma ndinvjbs
+    <div className="App">
+      <Dinner dishname="Biryani"></Dinner>
     </div>
+    
   );
 }
 
